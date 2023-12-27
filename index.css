@@ -14,10 +14,10 @@ body {
     display: flex;
     justify-content: center;
 
-    /* height: 00px; */
+    height: 120px;
 }
 .img-new img {
-    width: 100%;
+    width: 90%;
 }
 a {
     text-decoration: none;
@@ -71,7 +71,7 @@ header div:hover {
 }
 .tile i {
     padding: 10px;
-    background-color: rgb(117, 117, 2);
+    background-color: #ad8539;
     border-radius: 10px;
 }
 
@@ -92,4 +92,11 @@ header div:hover {
 .tile:hover {
     transition: cubic-bezier(.07, 1.41, .82, 0.141) 0.2s;
     transform: scale(1.02);
+}
+footer{
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
